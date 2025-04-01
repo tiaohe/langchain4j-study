@@ -1,0 +1,8 @@
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: ${DEEP_SEEK_OPENAI_API_KEY}   # OpenAI API key
+      model-name: ${DEEP_SEEK_MODEL_NAME}    # OpenAI model name
+      base-url: ${DEEP_SEEK_BASE_URL}        # OpenAI base URL
+      log-requests: true                     # Log requests
+      log-responses: true                    # Log responses
